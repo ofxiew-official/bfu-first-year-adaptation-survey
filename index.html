@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Анонимная анкета об адаптации первокурсников направления «Бизнес-информатика» БФУ им. И. Канта.">
+  <meta name="theme-color" content="#102b46">
+  <title>Адаптация первокурсников — Бизнес-информатика</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23102b46'/%3E%3Cpath d='M13 43h38M17 34c7-10 14-10 21 0 5 7 9 7 13 0' fill='none' stroke='%2375d5df' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="brand-copy">Исследование адаптации<br><strong>Бизнес-информатика · БФУ</strong></div>
+      <div class="topbar-note">Первый курс</div>
+    </header>
+
+    <main class="layout">
+      <aside class="sidebar" aria-label="Об опросе">
+        <div class="eyebrow">БФУ им. И. Канта · Калининград</div>
+        <h1>Как проходит ваш первый семестр?</h1>
+        <p>Расскажите, что помогает освоиться в БФУ и где нужна поддержка. Ответы помогут подготовить практические предложения.</p>
+        <div class="facts">
+          <div><span class="fact-number">25</span><span>вопросов</span></div>
+          <div><span class="fact-number">7–10</span><span>минут</span></div>
+        </div>
+        <div class="privacy-note">
+          <strong>Без имени и контактов</strong>
+          <p>Мы не спрашиваем ФИО, номер группы или почту. Не указывайте личные данные в свободных ответах. Чувствительные и открытые вопросы можно пропустить.</p>
+        </div>
+      </aside>
+
+      <section class="survey-panel" aria-labelledby="step-title">
+        <div class="progress-head">
+          <span id="step-counter">Шаг 1 из 5</span>
+          <span id="progress-percent">20%</span>
+        </div>
+        <div class="progress-track" aria-hidden="true"><div id="progress-fill"></div></div>
+
+        <form id="survey-form" action="https://formsubmit.co/farafonovegor0707@gmail.com" method="POST" novalidate>
+          <input type="hidden" name="_subject" value="Анкета: адаптация первокурсников БФУ">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_next" id="next-url">
+          <input type="text" name="_honey" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div id="form-content"></div>
+          <p id="form-error" class="form-error" role="alert" hidden></p>
+          <div class="form-actions">
+            <button class="button button-secondary" type="button" id="prev-button" hidden>Назад</button>
+            <button class="button button-primary" type="button" id="next-button">Далее <span aria-hidden="true">→</span></button>
+            <button class="button button-primary" type="submit" id="submit-button" hidden>Отправить ответы <span aria-hidden="true">→</span></button>
+          </div>
+          <p class="form-footnote">Ответы отправляются организатору через FormSubmit. Заполнение добровольное.</p>
+        </form>
+      </section>
+    </main>
+    <footer>Исследование адаптации первокурсников · БФУ им. И. Канта</footer>
+  </div>
+</body>
+</html>
